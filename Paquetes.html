@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>RESERVA</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilo111.css">
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1>ECHO LOVE</h1>
+                <nav>
+                    <a href="Páginaprincipal.html">Principal</a>
+                    <a href="Galeria.html">Productos</a>
+                    <a href="AcercaDN.html">Nosotros</a>
+                    <a href="Paquetes.html">Reservas</a>
+                </nav>
+            </header>
+        </div>
+
+        <main class="contenedor-contacto">
+            <form class="formulario-estilizado">
+                <h2 class="titulo-seccion">Bienvenido</h2>
+                
+                <h3 class="subtitulo-form">Información del Cliente</h3>
+                <div class="fila-form">
+                    <fieldset>
+                        <legend>Nombre Completo</legend>
+                        <div class="grupo-input-doble">
+                            <div class="grupo-input">
+                                <label for="nombres">Nombres</label>
+                                <input type="text" id="nombres" name="nombres" required>
+                            </div>
+                            <div class="grupo-input">
+                                <label for="apellidos">Apellidos</label>
+                                <input type="text" id="apellidos" name="apellidos" required>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="fila-form">
+                    <fieldset>
+                        <legend>Datos de Contacto</legend>
+                        <div class="grupo-input-doble">
+                            <div class="grupo-input">
+                                <label for="correo">Correo Electrónico</label>
+                                <input type="email" id="correo" name="correo" required>
+                            </div>
+                            <div class="grupo-input">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <h3 class="subtitulo-form">Detalles del producto</h3>
+                <div class="fila-form">
+                    <fieldset>
+                        <legend>Especificaciones</legend>
+                        <div class="grupo-input-doble">
+                            <div class="grupo-input">
+                                <label for="sesion">Tamaño del producto</label>
+                                <select id="sesion" name="sesion" required>
+                                    <option value="" disabled selected>Seleccione una opción</option>
+                                    <option value="Pequeño">Pequeño</option>
+                                    <option value="Mediano">Mediano</option>
+                                    <option value="Grande   ">Grande</option>
+                                </select>
+                            </div>
+                            <div class="grupo-input">
+                                <label for="fecha">Fecha requerida (Opcional)</label>
+                                <input type="date" id="fecha" name="fecha">
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="fila-form">
+                    <fieldset>
+                        <legend>Información Adicional</legend>
+                        <div class="grupo-input">
+                            <label for="referencia">¿Qué producto desea reservar?</label>
+                            <textarea id="referencia" name="referencia" rows="4"></textarea>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="boton-contenedor" align="center">
+                    <button type="submit" class="btn-enviar">Reservar</button>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <div class="redes-sociales">
+                <a href="https://www.facebook.com/share/14pGmNT2QGR" target="_blank">
+                    <img src="Prod/Icono Face.jpg" alt="Facebook" style="width: 35px;">
+                </a>
+                <a href="https://www.instagram.com/echolove9?stkn=MW53NmdwMnJobGw5bg==" target="_blank">
+                    <img src="Prod/Icono Ig.jpg" alt="Instagram" style="width: 35px;">
+                </a>
+                <a href="https://wa.me/528995466225" target="_blank">
+                    <img src="Prod/Icono Whats.jpg" alt="WhatsApp" style="width: 35px;">
+                </a>
+            </div>
+            <p>EchoLove81@gmail.com</p>
+        </footer>
+    </body>
+</html>
